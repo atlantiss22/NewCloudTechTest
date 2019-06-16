@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "tests.NewCloudTechTest",
+    "children" : [ {
+      "name" : "shouldSeeVacanciesOnThisRegion",
+      "uid" : "eaf3e8345cfb54bf",
+      "parentUid" : "7e6b40755454b3accb6ff525e5b42724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560701626666,
+        "stop" : 1560701629265,
+        "duration" : 2599
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeNewCloudTechInResults",
+      "uid" : "af802ed45473e3af",
+      "parentUid" : "7e6b40755454b3accb6ff525e5b42724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560701629331,
+        "stop" : 1560701630851,
+        "duration" : 1520
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "shouldSeeThisVacancy",
+      "uid" : "34df94c95c07f0ab",
+      "parentUid" : "7e6b40755454b3accb6ff525e5b42724",
+      "status" : "passed",
+      "time" : {
+        "start" : 1560701630856,
+        "stop" : 1560701633407,
+        "duration" : 2551
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7e6b40755454b3accb6ff525e5b42724"
+  } ]
+}

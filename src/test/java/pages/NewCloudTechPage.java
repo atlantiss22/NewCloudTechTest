@@ -8,16 +8,16 @@ import java.util.List;
 
 public class NewCloudTechPage extends MainHhunterPage{
 
-    @FindBy(xpath = "//h4/span[contains(text(), 'РІ С‚РµРєСѓС‰РµРј')]")
+    @FindBy(xpath = "//h4/span[contains(text(), 'в текущем')]")
     private WebElement thisRegionLabel;
 
-    @FindBy(xpath = "//h4/span[contains(text(), 'РІ С‚РµРєСѓС‰РµРј')]/following-sibling::span")
+    @FindBy(xpath = "//h4/span[contains(text(), 'в текущем')]/following-sibling::span")
     private WebElement thisRegionVacancyCount;
 
-    @FindBy(xpath = "//h4/span[contains(text(), 'РІ РґСЂСѓРіРёС…')]")
+    @FindBy(xpath = "//h4/span[contains(text(), 'в других')]")
     private WebElement otherRegionLabel;
 
-    @FindBy(xpath = "//h4/span[contains(text(), 'РІ РґСЂСѓРіРёС…')]/following-sibling::span")
+    @FindBy(xpath = "//h4/span[contains(text(), 'в других')]/following-sibling::span")
     private WebElement otherRegionVacancyCount;
 
     @FindBy(xpath = "//div[@class='b-employerpage-vacancies g-expand']//span[@data-qa='vacancies-group-title-link']")

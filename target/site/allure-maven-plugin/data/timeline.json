@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-NCNIH42",
+    "children" : [ {
+      "name" : "4364@DESKTOP-NCNIH42.main(1)",
+      "children" : [ {
+        "name" : "shouldSeeVacanciesOnThisRegion",
+        "uid" : "eaf3e8345cfb54bf",
+        "parentUid" : "dde591ea765921c1dbf43574a96cb0c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560701626666,
+          "stop" : 1560701629265,
+          "duration" : 2599
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSeeThisVacancy",
+        "uid" : "34df94c95c07f0ab",
+        "parentUid" : "dde591ea765921c1dbf43574a96cb0c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560701630856,
+          "stop" : 1560701633407,
+          "duration" : 2551
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "shouldSeeNewCloudTechInResults",
+        "uid" : "af802ed45473e3af",
+        "parentUid" : "dde591ea765921c1dbf43574a96cb0c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1560701629331,
+          "stop" : 1560701630851,
+          "duration" : 1520
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dde591ea765921c1dbf43574a96cb0c5"
+    } ],
+    "uid" : "18528a9ffa1e5c1a17730c5130b204b3"
+  } ]
+}

@@ -20,6 +20,6 @@ public class ResultSteps extends DefaultSteps {
                 contains = true;
             }
         }
-        assertTrue("Р”РѕР»Р¶РЅС‹ РІРёРґРµС‚СЊ РєРѕРјРїР°РЅРёСЋ", contains);
+        assertTrue("Должны видеть компанию", contains);
     }
 }

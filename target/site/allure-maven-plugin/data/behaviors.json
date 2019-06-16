@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "shouldSeeVacanciesOnThisRegion",
+    "uid" : "eaf3e8345cfb54bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1560701626666,
+      "stop" : 1560701629265,
+      "duration" : 2599
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "shouldSeeNewCloudTechInResults",
+    "uid" : "af802ed45473e3af",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1560701629331,
+      "stop" : 1560701630851,
+      "duration" : 1520
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "shouldSeeThisVacancy",
+    "uid" : "34df94c95c07f0ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1560701630856,
+      "stop" : 1560701633407,
+      "duration" : 2551
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

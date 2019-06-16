@@ -39,7 +39,7 @@ public class NewCloudTechSteps extends DefaultSteps {
             nameOfVacancies.add(element.getText().trim());
         }
 
-        assertEquals("Р”РѕР»Р¶РЅРѕ Р±С‹С‚СЊ " + number + " РІР°РєР°РЅСЃРёР№", nameOfVacancies.size() , number);
+        assertEquals("Должно быть " + number + " вакансий", nameOfVacancies.size() , number);
     }
 
     public void shouldSeeThisVacancy (List<WebElement> vacancies, String nameOfVacancy) {
@@ -49,7 +49,7 @@ public class NewCloudTechSteps extends DefaultSteps {
             nameOfVacancies.add(element.getText().trim());
         }
 
-        assertTrue("Р”РѕР»Р¶РЅР° РїСЂРёСЃСѓС‚СЃС‚РІРѕРІР°С‚СЊ РІР°РєР°РЅСЃРёСЏ " + nameOfVacancy, nameOfVacancies.contains(nameOfVacancy));
+        assertTrue("Должна присутствовать вакансия " + nameOfVacancy, nameOfVacancies.contains(nameOfVacancy));
     }
 
 }

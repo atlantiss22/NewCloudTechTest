@@ -1,0 +1,31 @@
+[ {
+  "uid" : "eaf3e8345cfb54bf",
+  "name" : "shouldSeeVacanciesOnThisRegion",
+  "time" : {
+    "start" : 1560701626666,
+    "stop" : 1560701629265,
+    "duration" : 2599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34df94c95c07f0ab",
+  "name" : "shouldSeeThisVacancy",
+  "time" : {
+    "start" : 1560701630856,
+    "stop" : 1560701633407,
+    "duration" : 2551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af802ed45473e3af",
+  "name" : "shouldSeeNewCloudTechInResults",
+  "time" : {
+    "start" : 1560701629331,
+    "stop" : 1560701630851,
+    "duration" : 1520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

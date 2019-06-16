@@ -50,12 +50,12 @@ public class NewCloudTechTest {
     @Test
     public void shouldSeeNewCloudTechInResults() {
         defaultSteps.clickOn(onMainPage().getSearchTypeSelect());
-        defaultSteps.selectValueFromDropdown(onMainPage().getSearchTypeOptions(), "РљРѕРјРїР°РЅРёРё");
-        defaultSteps.enterText(onMainPage().getSearchInput(), "РЅРѕРІС‹Рµ РѕР±Р»Р°С‡РЅС‹Рµ");
+        defaultSteps.selectValueFromDropdown(onMainPage().getSearchTypeOptions(), "Компании");
+        defaultSteps.enterText(onMainPage().getSearchInput(), "новые облачные");
         defaultSteps.clickOn(onMainPage().getSearchButton());
 
         resultSteps.shouldBeVisible(onResultsPage().getResultsTable());
-        resultSteps.shouldSeeThisCompany(onResultsPage().getCompanyResults(), "РќРѕРІС‹Рµ РћР±Р»Р°С‡РЅС‹Рµ РўРµС…РЅРѕР»РѕРіРёРё");
+        resultSteps.shouldSeeThisCompany(onResultsPage().getCompanyResults(), "Новые Облачные Технологии");
     }
 
     @Test

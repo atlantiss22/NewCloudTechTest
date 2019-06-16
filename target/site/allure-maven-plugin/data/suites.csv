@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","tests.NewCloudTechTest.shouldSeeVacanciesOnThisRegion","2599",""
+"passed","tests.NewCloudTechTest.shouldSeeThisVacancy","2551",""
+"passed","tests.NewCloudTechTest.shouldSeeNewCloudTechInResults","1520",""

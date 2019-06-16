@@ -1,0 +1,10 @@
+steps\DefaultSteps.class
+tests\NewCloudTechTest.class
+enums\Browser.class
+rules\WebDriverRule.class
+pages\MainHhunterPage.class
+steps\ResultSteps.class
+rules\WebDriverRule$1.class
+steps\NewCloudTechSteps.class
+pages\ResultsHhunterPage.class
+pages\NewCloudTechPage.class

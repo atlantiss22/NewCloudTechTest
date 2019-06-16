@@ -34,7 +34,7 @@ public class DefaultSteps {
     }
 
     public void shouldBeVisible(WebElement element) {
-        assertTrue("Р”РѕР»Р¶РЅС‹ РІРёРґРµС‚СЊ СЌР»РµРјРµРЅС‚", element.isDisplayed());
+        assertTrue("Должны видеть элемент", element.isDisplayed());
     }
 
     public void selectValueFromDropdown(List<WebElement> valuesOfSelect, String value) {
