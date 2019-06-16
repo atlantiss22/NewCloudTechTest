@@ -29,5 +29,4 @@ public class WebDriverRule {
     public WebDriver getDriver() {
         return driver;
     }
-
 }
